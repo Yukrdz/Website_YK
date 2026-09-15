@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>俞快 Kuai Yu</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Sans+TC:wght@300;400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ====== NAVIGATION ====== -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo" data-zh="俞快" data-hant="俞快" data-en="Kuai Yu">俞快</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#education"   data-zh="教育"   data-hant="教育"   data-en="Education">Education</a></li>
+      <li><a href="#about"       data-zh="关于"   data-hant="關於"   data-en="About">About</a></li>
+      <li><a href="#work"        data-zh="工作"   data-hant="工作"   data-en="Work">Work</a></li>
+      <li><a href="#research"    data-zh="研究"   data-hant="研究"   data-en="Research">Research</a></li>
+      <li><a href="#publications" data-zh="成果"  data-hant="成果"   data-en="Publications">Pubs</a></li>
+      <li><a href="#skills"      data-zh="技能"   data-hant="技能"   data-en="Skills">Skills</a></li>
+      <li><a href="#teaching"    data-zh="教学"   data-hant="教學"   data-en="Teaching">Teaching</a></li>
+      <li><a href="#beyond"      data-zh="其他"   data-hant="其他"   data-en="Beyond">Beyond</a></li>
+      <li><a href="#contact"     data-zh="联系"   data-hant="聯絡"   data-en="Contact">Contact</a></li>
+    </ul>
+    <div class="lang-switch" id="langSwitch" role="group" aria-label="Language">
+      <button class="lang-btn active" data-lang="zh" aria-pressed="true">简</button>
+      <button class="lang-btn" data-lang="hant" aria-pressed="false">繁</button>
+      <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ====== HERO (minimal) ====== -->
+<section class="hero hero-minimal" id="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h1 class="hero-name">
+        <span class="name-cn" data-zh="俞快" data-hant="俞快" data-en="Kuai Yu">俞快</span>
+        <span class="name-sub" data-zh="Kuai Yu" data-hant="Kuai Yu" data-en="俞快">Kuai Yu</span>
+      </h1>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary"
+           data-zh="联系我" data-hant="聯絡我" data-en="Get in Touch">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-frame">
+        <img src="avatar.jpg" alt="Kuai Yu">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== EDUCATION (NEW 01) ====== -->
+<section class="section section-alt" id="education">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <span class="section-label" data-zh="教育背景" data-hant="教育背景" data-en="Education">Education</span>
+      <h2 class="section-title" data-zh="教育背景" data-hant="教育背景" data-en="Education">Education</h2>
+    </div>
+    <div class="edu-list">
+
+      <div class="edu-item">
+        <div class="edu-main">
+          <h3>
+            <span data-zh="厦门大学" data-hant="廈門大學" data-en="Xiamen University">Xiamen University</span>
+            <span class="edu-badge" data-zh="硕士" data-hant="碩士" data-en="Master">Master</span>
+          </h3>
+          <p class="edu-degree"
+             data-zh="生物学 · 细胞应激生物学国家重点实验室"
+             data-hant="生物學 · 細胞應激生物學國家重點實驗室"
+             data-en="Biology · State Key Lab of Cellular Stress Biology">Biology</p>
+          <p class="edu-detail"
+             data-zh="导师：韩家淮 院士"
+             data-hant="導師：韓家淮 院士"
+             data-en="Advisor: Academician Jiahuai Han">Advisor: Dr. Jiahuai Han</p>
+        </div>
+        <div class="edu-meta">
+          <span class="edu-date">2023.9 – 2026.6</span>
+          <span class="edu-place" data-zh="厦门，中国" data-hant="廈門，中國" data-en="Xiamen, China">Xiamen, China</span>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-main">
+          <h3>
+            <span data-zh="南京农业大学" data-hant="南京農業大學" data-en="Nanjing Agricultural University">Nanjing Agricultural University</span>
+            <span class="edu-badge" data-zh="本科" data-hant="本科" data-en="Bachelor">Bachelor</span>
+          </h3>
+          <p class="edu-degree"
+             data-zh="生物技术 · 国家生命科学与技术人才培养基地班"
+             data-hant="生物技術 · 國家生命科學與技術人才培養基地班"
+             data-en="Biotechnology · National Base Class for Life Sciences">Biotechnology</p>
+        </div>
+        <div class="edu-meta">
+          <span class="edu-date">2019.9 – 2023.6</span>
+          <span class="edu-place" data-zh="南京，中国" data-hant="南京，中國" data-en="Nanjing, China">Nanjing, China</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====== ABOUT (02, text only) ====== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <span class="section-label" data-zh="关于我" data-hant="關於我" data-en="About">About</span>
+      <h2 class="section-title" data-zh="关于我" data-hant="關於我" data-en="About Me">About Me</h2>
+    </div>
+    <div class="about-text-wide">
+      <p data-zh="我是俞快，目前在<strong>香港大学</strong>担任 Research Assistant II。硕士毕业于厦门大学生命科学学院（韩家淮院士课题组），研究方向聚焦于流感病毒感染与细胞死亡通路的相互作用，同时涉及 p38 MAPK 相关激酶的功能与结构研究。"
+         data-hant="我是俞快，目前在<strong>香港大學</strong>擔任 Research Assistant II。碩士畢業於廈門大學生命科學學院（韓家淮院士課題組），研究方向聚焦於流感病毒感染與細胞死亡通路的相互作用，同時涉及 p38 MAPK 相關激酶的功能與結構研究。"
+         data-en="I am Kuai Yu, currently a <strong>Research Assistant II</strong> at The University of Hong Kong. I received my M.S. in Biology from the School of Life Sciences, Xiamen University, working in the lab of Academician Jiahuai Han — focusing on influenza A virus infection and cell death pathways, as well as functional and structural studies of p38 MAPK pathway kinases.">I am Kuai Yu, currently a Research Assistant II at HKU...</p>
+      <p data-zh="我相信好的科研既需要扎实的 bench work，也需要清晰的数据思维。我的工作横跨<strong>湿实验</strong>（小鼠模型、流式细胞术、分子克隆、蛋白纯化）与<strong>干分析</strong>（R / Python / 统计建模 / 数据可视化）；在港大同时负责试剂设备采购谈判、跨部门协作与全英文商务沟通。"
+         data-hant="我相信好的科研既需要扎實的 bench work，也需要清晰的數據思維。我的工作橫跨<strong>濕實驗</strong>（小鼠模型、流式細胞術、分子克隆、蛋白純化）與<strong>乾分析</strong>（R / Python / 統計建模 / 數據可視化）；在港大同時負責試劑設備採購談判、跨部門協作與全英文商務溝通。"
+         data-en="I believe good research demands both solid bench work and sharp data thinking. My experience spans <strong>wet-lab</strong> experiments (murine models, flow cytometry, molecular cloning, protein purification) and <strong>dry-lab</strong> analysis (R/Python, statistical modeling, data visualization). At HKU I additionally lead vendor negotiation, procurement strategy and cross-department collaboration in English.">I believe good research demands solid bench work and sharp data thinking...</p>
+      <p data-zh="实验室之外，我运营过游戏类自媒体，熟练掌握 Photoshop 与 Final Cut Pro，对内容创作与视觉表达保持着长久的热情。"
+         data-hant="實驗室之外，我運營過遊戲類自媒體，熟練掌握 Photoshop 與 Final Cut Pro，對內容創作與視覺表達保持著長久的熱情。"
+         data-en="Beyond the lab, I have run a gaming channel on Bilibili, work proficiently with Photoshop and Final Cut Pro, and maintain a lasting interest in content creation and visual storytelling.">Beyond the lab, I've run a gaming channel on Bilibili...</p>
+    </div>
+  </div>
+</section>
+
+<!-- ====== WORK (03, RA only) ====== -->
+<section class="section section-alt" id="work">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <span class="section-label" data-zh="工作经历" data-hant="工作經歷" data-en="Work">Work Experience</span>
+      <h2 class="section-title" data-zh="工作经历" data-hant="工作經歷" data-en="Work Experience">Work Experience</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-head">
+            <h3>Research Assistant II</h3>
+            <span class="tl-date">2026.8 – <span data-zh="至今" data-hant="至今" data-en="Present">Present</span></span>
+          </div>
+          <p class="tl-org" data-zh="香港大学" data-hant="香港大學" data-en="The University of Hong Kong">The University of Hong Kong</p>
+          <ul class="tl-points">
+            <li data-zh="商务对接与供应链管理：负责试剂与设备的采购谈判、供应商对接及预算统筹，优化采购流程并降低成本。"
+                data-hant="商務對接與供應鏈管理：負責試劑與設備的採購談判、供應商對接及預算統籌，優化採購流程並降低成本。"
+                data-en="Business liaison &amp; supply chain management: leads vendor negotiation, procurement and budget planning for reagents and equipment, streamlining workflows and reducing costs.">Business liaison &amp; supply chain management...</li>
+            <li data-zh="全英文跨团队沟通：以英语为主要工作语言，负责跨部门协作、商务邮件撰写及项目日常沟通。"
+                data-hant="全英文跨團隊溝通：以英語為主要工作語言，負責跨部門協作、商務郵件撰寫及項目日常溝通。"
+                data-en="Full-English cross-team collaboration: English is the primary working language; responsible for inter-departmental coordination, business correspondence and daily project communication.">Full-English cross-team collaboration...</li>
+            <li data-zh="数据分析与报告撰写：完成项目数据的挖掘与可视化呈现，撰写专题分析报告与汇报材料，为决策提供数据支撑。"
+                data-hant="數據分析與報告撰寫：完成項目數據的挖掘與可視化呈現，撰寫專題分析報告與彙報材料，為決策提供數據支撐。"
+                data-en="Data analysis &amp; reporting: mines project data, produces visualizations, and authors analytical reports to inform decision-making.">Data analysis &amp; reporting...</li>
+          </ul>
+          <div class="tl-tags">
+            <span data-zh="供应链" data-hant="供應鏈" data-en="Supply Chain">Supply Chain</span>
+            <span data-zh="商务沟通" data-hant="商務溝通" data-en="Business Comm.">Business Comm.</span>
+            <span data-zh="数据分析" data-hant="數據分析" data-en="Data Analysis">Data Analysis</span>
+            <span data-zh="英语工作环境" data-hant="英語工作環境" data-en="English Env.">English Env.</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====== RESEARCH (04) ====== -->
+<section class="section" id="research">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <span class="section-label" data-zh="研究经历" data-hant="研究經歷" data-en="Research">Research Experience</span>
+      <h2 class="section-title" data-zh="研究经历" data-hant="研究經歷" data-en="Research Experience">Research Experience</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-head">
+            <h3 data-zh="流感病毒（IAV）与细胞死亡通路相互作用研究"
+                data-hant="流感病毒（IAV）與細胞死亡通路相互作用研究"
+                data-en="Interplay between Influenza A Virus and Cell Death Pathways">Interplay between IAV and Cell Death Pathways</h3>
+            <span class="tl-date">2024.2 – 2026.6</span>
+          </div>
+          <p class="tl-org" data-zh="厦门大学 · 韩家淮院士课题组"
+             data-hant="廈門大學 · 韓家淮院士課題組"
+             data-en="Dr. Jiahuai Han's Lab, Xiamen University">Dr. Jiahuai Han's Lab, Xiamen University</p>
+          <ul class="tl-points">
+            <li data-zh="基于基因敲除小鼠（Casp8<sup>−/−</sup>Mlkl<sup>−/−</sup>）构建流感感染模型，监测疾病进展与病理状态。"
+                data-hant="基於基因敲除小鼠（Casp8<sup>−/−</sup>Mlkl<sup>−/−</sup>）構建流感感染模型，監測疾病進展與病理狀態。"
+                data-en="Built influenza infection models using gene-knockout mice (Casp8<sup>−/−</sup>Mlkl<sup>−/−</sup>) to monitor disease progression and pathology.">Built IAV infection models in Casp8<sup>−/−</sup>Mlkl<sup>−/−</sup> mice...</li>
+            <li data-zh="通过抗体中和实验与过继性转移鉴定调控疾病进展的关键细胞类型。"
+                data-hant="通過抗體中和實驗與過繼性轉移鑑定調控疾病進展的關鍵細胞類型。"
+                data-en="Identified key cell types modulating disease progression via antibody neutralization and adoptive transfer.">Identified key cell types via neutralization &amp; adoptive transfer...</li>
+            <li data-zh="流式细胞术免疫表型分析；RNA-Seq 下游差异基因分析（R Studio）；ELISA 与 qPCR 定量验证。"
+                data-hant="流式細胞術免疫表型分析；RNA-Seq 下游差異基因分析（R Studio）；ELISA 與 qPCR 定量驗證。"
+                data-en="Immunophenotyping by flow cytometry; RNA-Seq differential gene analysis (R Studio); quantification by ELISA and qPCR.">Flow cytometry, RNA-Seq (R), ELISA &amp; qPCR validation...</li>
+          </ul>
+          <div class="tl-tags">
+            <span>IAV</span>
+            <span data-zh="细胞死亡" data-hant="細胞死亡" data-en="Cell Death">Cell Death</span>
+            <span data-zh="流式" data-hant="流式" data-en="Flow Cyto.">Flow Cyto.</span>
+            <span>RNA-Seq</span><span>R</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-head">
+            <h3 data-zh="PRAK 激酶功能与结构研究"
+                data-hant="PRAK 激酶功能與結構研究"
+                data-en="Functional &amp; Structural Studies of PRAK Kinase">Functional &amp; Structural Studies of PRAK Kinase</h3>
+            <span class="tl-date">2023.9 – 2026.6</span>
+          </div>
+          <p class="tl-org" data-zh="厦门大学 · 韩家淮院士课题组"
+             data-hant="廈門大學 · 韓家淮院士課題組"
+             data-en="Dr. Jiahuai Han's Lab, Xiamen University">Dr. Jiahuai Han's Lab, Xiamen University</p>
+          <ul class="tl-points">
+            <li data-zh="解析 PRAK 激酶与抑制剂复合物的共结晶结构，揭示其结合模式。"
+                data-hant="解析 PRAK 激酶與抑制劑複合物的共結晶結構，揭示其結合模式。"
+                data-en="Resolved the co-crystal structure of PRAK kinase in complex with its inhibitor, revealing the binding mode.">Resolved the co-crystal structure of the PRAK–inhibitor complex...</li>
+            <li data-zh="研究 PRAK 在肥胖发病中的作用及对胰岛素信号通路的调控（Co-IP、荧光素酶报告、qPCR）。"
+                data-hant="研究 PRAK 在肥胖發病中的作用及對胰島素信號通路的調控（Co-IP、熒光素酶報告、qPCR）。"
+                data-en="Investigated PRAK's role in obesity pathogenesis and its regulation of insulin signaling (Co-IP, luciferase reporter, qPCR).">Investigated PRAK in obesity &amp; insulin signaling...</li>
+          </ul>
+          <div class="tl-tags">
+            <span data-zh="蛋白结晶" data-hant="蛋白結晶" data-en="Crystallography">Crystallography</span>
+            <span>Co-IP</span>
+            <span data-zh="荧光素酶报告" data-hant="熒光素酶報告" data-en="Reporter">Reporter</span>
+            <span>smRNA-FISH</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-head">
+            <h3 data-zh="粘细菌抗菌蛋白筛选"
+                data-hant="粘細菌抗菌蛋白篩選"
+                data-en="Screening of Antimicrobial Proteins from Myxobacteria">Screening of Antimicrobial Proteins from Myxobacteria</h3>
+            <span class="tl-date">2021.9 – 2022.9</span>
+          </div>
+          <p class="tl-org" data-zh="南京农业大学 · 崔中利教授课题组"
+             data-hant="南京農業大學 · 崔中利教授課題組"
+             data-en="Dr. Zhongli Cui's Lab, Nanjing Agricultural University">Dr. Zhongli Cui's Lab, NAU</p>
+          <ul class="tl-points">
+            <li data-zh="在大肠杆菌 BL21(DE3) 中筛选、表达并纯化抗菌蛋白。"
+                data-hant="在大腸桿菌 BL21(DE3) 中篩選、表達並純化抗菌蛋白。"
+                data-en="Screened, expressed and purified antimicrobial proteins in <em>E. coli</em> BL21(DE3).">Expressed &amp; purified antimicrobial proteins in <em>E. coli</em>...</li>
+            <li data-zh="体外验证对植物病原菌的抑菌活性，完成数据分析与可视化。"
+                data-hant="體外驗證對植物病原菌的抑菌活性，完成數據分析與可視化。"
+                data-en="Validated in-vitro antimicrobial activity against phytopathogens; completed data analysis &amp; visualization.">Validated activity against phytopathogens...</li>
+            <li data-zh="成果发表于 SCI 期刊 <em>Protein Expression and Purification</em>。"
+                data-hant="成果發表於 SCI 期刊 <em>Protein Expression and Purification</em>。"
+                data-en="Work published in the SCI journal <em>Protein Expression and Purification</em>.">Published in <em>Protein Expression and Purification</em>...</li>
+          </ul>
+          <div class="tl-tags">
+            <span data-zh="蛋白纯化" data-hant="蛋白純化" data-en="Protein Purif.">Protein Purif.</span>
+            <span data-zh="抑菌实验" data-hant="抑菌實驗" data-en="Antimicrobial">Antimicrobial</span>
+            <span><em>E. coli</em></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-head">
+            <h3 data-zh="胞外多糖对土壤镉固定的机制研究"
+                data-hant="胞外多糖對土壤鎘固定的機制研究"
+                data-en="Cadmium Immobilization in Soil by Bacterial Exopolysaccharides">Cadmium Immobilization by Bacterial Exopolysaccharides</h3>
+            <span class="tl-date">2022.10 – 2023.5</span>
+          </div>
+          <p class="tl-org" data-zh="南京农业大学 · 何琳燕教授课题组"
+             data-hant="南京農業大學 · 何琳燕教授課題組"
+             data-en="Dr. Linyan He's Lab, Nanjing Agricultural University">Dr. Linyan He's Lab, NAU</p>
+          <ul class="tl-points">
+            <li data-zh="从污染土壤中分离功能性枯草芽孢杆菌 B12，研究其胞外多糖对土壤镉的固定机制。"
+                data-hant="從污染土壤中分離功能性枯草芽孢桿菌 B12，研究其胞外多糖對土壤鎘的固定機制。"
+                data-en="Isolated functional <em>Bacillus subtilis</em> B12 from contaminated soil; investigated EPS-mediated cadmium immobilization mechanisms.">Isolated <em>B. subtilis</em> B12; studied EPS-mediated cadmium immobilization...</li>
+            <li data-zh="完成数据分析与毕业论文撰写。"
+                data-hant="完成數據分析與畢業論文撰寫。"
+                data-en="Completed data analysis and graduation thesis writing.">Data analysis &amp; thesis writing...</li>
+          </ul>
+          <div class="tl-tags">
+            <span><em>Bacillus subtilis</em></span>
+            <span data-zh="环境微生物" data-hant="環境微生物" data-en="Env. Microbiology">Env. Microbiology</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====== PUBLICATIONS (05, English title only) ====== -->
+<section class="section section-alt" id="publications">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <span class="section-label" data-zh="学术成果" data-hant="學術成果" data-en="Publications">Publications</span>
+      <h2 class="section-title" data-zh="学术成果" data-hant="學術成果" data-en="Publications">Publications</h2>
+    </div>
+    <div class="pub-card">
+      <div class="pub-journal"><em>Protein Expression and Purification</em> · 2023</div>
+      <h3 class="pub-title">Preparation of chitooligosaccharides with a low degree of polymerization and anti-microbial properties using the novel chitosanase AqCsn1</h3>
+      <p class="pub-authors">
+        Xia, C., Li, D., Qi, M., Wang, Y., Zhang, Y., Yang, Y., Hu, Z., Du, X., Zhao, Y.,
+        <strong>Yu, K.</strong>, Huang, Y., Li, Z., Ye, X., &amp; Cui, Z.
+      </p>
+      <p class="pub-meta"><em>Protein Expression and Purification</em>, 203, 106199</p>
+      <a href="https://doi.org/10.1016/j.pep.2022.106199" target="_blank" class="pub-link" rel="noopener"
+         data-zh="查看论文 →" data-hant="查看論文 →" data-en="View Publication →">View Publication →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====== SKILLS (06) ====== -->
+<section class="section" id="skills">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">06</span>
+      <span class="section-label" data-zh="技能矩阵" data-hant="技能矩陣" data-en="Skills">Skills</span>
+      <h2 class="section-title" data-zh="技能矩阵" data-hant="技能矩陣" data-en="Skills">Skills</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon">🧬</div>
+        <h3 data-zh="湿实验技术" data-hant="濕實驗技術" data-en="Wet-Lab Techniques">Wet-Lab Techniques</h3>
+        <ul>
+          <li data-zh="动物手术（腹腔/静脉注射、迷走神经切断、脾切除）"
+              data-hant="動物手術（腹腔/靜脈注射、迷走神經切斷、脾切除）"
+              data-en="Animal surgery (i.p./i.v. injection, vagotomy, splenectomy)">Animal surgery (i.p./i.v., vagotomy, splenectomy)</li>
+          <li data-zh="组织病理学评估、感染模型构建"
+              data-hant="組織病理學評估、感染模型構建"
+              data-en="Histopathological assessment, infection models">Histopathology &amp; infection models</li>
+          <li data-zh="细胞培养、Western Blot、流式细胞术"
+              data-hant="細胞培養、Western Blot、流式細胞術"
+              data-en="Cell culture, Western Blotting, flow cytometry">Cell culture, WB, flow cytometry</li>
+          <li data-zh="分子克隆、蛋白纯化、病毒包装与滴度测定"
+              data-hant="分子克隆、蛋白純化、病毒包裝與滴度測定"
+              data-en="Molecular cloning, protein purification, viral packaging &amp; titration">Molecular cloning, protein purification, viral work</li>
+          <li>qPCR</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">📊</div>
+        <h3 data-zh="计算与数据分析" data-hant="計算與數據分析" data-en="Computation &amp; Data Analysis">Computation &amp; Data Analysis</h3>
+        <ul>
+          <li>R Studio · SPSS · GraphPad Prism</li>
+          <li data-zh="Python · RNA-Seq 数据分析"
+              data-hant="Python · RNA-Seq 數據分析"
+              data-en="Python · RNA-Seq data analysis">Python · RNA-Seq data analysis</li>
+          <li>FlowJo · SnapGene · OlyVIA · Zeiss Zen Blue</li>
+          <li data-zh="数据可视化与统计建模"
+              data-hant="數據可視化與統計建模"
+              data-en="Data visualization &amp; statistical modeling">Data visualization &amp; statistical modeling</li>
+          <li>LaTeX · Microsoft Office</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <h3 data-zh="商务与语言" data-hant="商務與語言" data-en="Business &amp; Languages">Business &amp; Languages</h3>
+        <ul>
+          <li data-zh="全英文工作环境（TOEFL 95）"
+              data-hant="全英文工作環境（TOEFL 95）"
+              data-en="Full-English work environment (TOEFL 95)">English work environment (TOEFL 95)</li>
+          <li data-zh="供应商谈判与采购策略"
+              data-hant="供應商談判與採購策略"
+              data-en="Supplier negotiation &amp; procurement strategy">Supplier negotiation &amp; procurement</li>
+          <li data-zh="跨团队项目协调"
+              data-hant="跨團隊項目協調"
+              data-en="Cross-team project coordination">Cross-team coordination</li>
+          <li data-zh="学术与商务报告写作"
+              data-hant="學術與商務報告寫作"
+              data-en="Academic &amp; business report writing">Report writing (academic / business)</li>
+          <li data-zh="中文（母语）· 英语（流利）"
+              data-hant="中文（母語）· 英語（流利）"
+              data-en="Mandarin (Native) · English (Fluent)">Mandarin (Native) · English (Fluent)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== TEACHING & SERVICE (07, includes class president) ====== -->
+<section class="section section-alt" id="teaching">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">07</span>
+      <span class="section-label" data-zh="教学与服务" data-hant="教學與服務" data-en="Teaching &amp; Service">Teaching &amp; Service</span>
+      <h2 class="section-title" data-zh="教学与服务" data-hant="教學與服務" data-en="Teaching &amp; Service">Teaching &amp; Service</h2>
+    </div>
+    <div class="cards-grid">
+
+      <div class="card">
+        <div class="card-meta">
+          <span class="card-role" data-zh="助教" data-hant="助教" data-en="Teaching Assistant">TA</span>
+          <span class="card-date">2025.2 – 2025.6</span>
+        </div>
+        <h3 data-zh="普通生物学实验"
+            data-hant="普通生物學實驗"
+            data-en="Modern General Biology Experiments">Modern General Biology Experiments</h3>
+        <p data-zh="厦门大学 — 指导 56 名本科生实验操作，批改 100+ 份实验报告，独立负责考试监考与成绩录入（218 份试卷）。"
+           data-hant="廈門大學 — 指導 56 名本科生實驗操作，批改 100+ 份實驗報告，獨立負責考試監考與成績錄入（218 份試卷）。"
+           data-en="Xiamen University — supervised 56 undergraduates in lab techniques, graded 100+ reports, independently proctored exams and processed 218 answer sheets.">Xiamen University — supervised 56 undergraduates...</p>
+      </div>
+
+      <div class="card">
+        <div class="card-meta">
+          <span class="card-role" data-zh="助教" data-hant="助教" data-en="Teaching Assistant">TA</span>
+          <span class="card-date">2024.2 – 2024.6</span>
+        </div>
+        <h3 data-zh="现代生命科学导论"
+            data-hant="現代生命科學導論"
+            data-en="Introduction to Modern Life Sciences">Introduction to Modern Life Sciences</h3>
+        <p data-zh="厦门大学 — 为 20+ 本科生提供课后答疑，协助主讲教师随堂测试阅卷与评估。"
+           data-hant="廈門大學 — 為 20+ 本科生提供課後答疑，協助主講教師隨堂測試閱卷與評估。"
+           data-en="Xiamen University — after-class Q&amp;A for 20+ undergraduates; supported grading and in-class assessments.">Xiamen University — after-class Q&amp;A for 20+ students...</p>
+      </div>
+
+      <div class="card">
+        <div class="card-meta">
+          <span class="card-role" data-zh="班长" data-hant="班長" data-en="Class President">Class President</span>
+          <span class="card-date">2023.9 – 2024.8</span>
+        </div>
+        <h3 data-zh="生医一班班长"
+            data-hant="生醫一班班長"
+            data-en="Class President, Biomedical Graduate Class 1">Class President, Biomedical Class 1</h3>
+        <p data-zh="厦门大学 — 统筹 50+ 名研究生日常事务与院级政策通知，协助奖助学金评定与学籍管理；组织学术沙龙与集体活动，增强班级凝聚力。"
+           data-hant="廈門大學 — 統籌 50+ 名研究生日常事務與院級政策通知，協助獎助學金評定與學籍管理；組織學術沙龍與集體活動，增強班級凝聚力。"
+           data-en="Xiamen University — coordinated daily logistics for 50+ graduate students, supported scholarship evaluation and student records, and organized academic salons to foster class cohesion.">Xiamen University — led a 50+ graduate cohort...</p>
+      </div>
+
+      <div class="card">
+        <div class="card-meta">
+          <span class="card-role" data-zh="学生代表" data-hant="學生代表" data-en="Student Rep.">Student Rep.</span>
+          <span class="card-date">2025.9</span>
+        </div>
+        <h3 data-zh="厦门大学第三十五次研究生代表大会代表"
+            data-hant="廈門大學第三十五次研究生代表大會代表"
+            data-en="Delegate, 35th XMU Graduate Student Congress">Delegate, 35th XMU Graduate Congress</h3>
+        <p data-zh="代表学院参与研委会换届选举，审议校研会年度工作报告，履行提案提交与民主投票职责。"
+           data-hant="代表學院參與研委會換屆選舉，審議校研會年度工作報告，履行提案提交與民主投票職責。"
+           data-en="Represented the school at committee elections, reviewed the annual Graduate Union report, and submitted proposals.">Represented the school at committee elections...</p>
+      </div>
+
+      <div class="card">
+        <div class="card-meta">
+          <span class="card-role" data-zh="志愿者" data-hant="志願者" data-en="Volunteer">Volunteer</span>
+          <span class="card-date">2020 – 2023</span>
+        </div>
+        <h3 data-zh="志愿服务" data-hant="志願服務" data-en="Volunteer Service">Volunteer Service</h3>
+        <p data-zh="红十字会社区养老志愿（100+ 人次）；青年志愿者协会科普进小学项目主讲（50+ 学生）。"
+           data-hant="紅十字會社區養老志願（100+ 人次）；青年志願者協會科普進小學項目主講（50+ 學生）。"
+           data-en="Red Cross elderly care program (100+ seniors served); lead lecturer for the Youth Volunteers Association science outreach (50+ pupils).">Red Cross elderly care &amp; science outreach...</p>
+      </div>
+
+    </div>
+
+    <div class="awards-strip">
+      <div class="award-item" data-zh="🏆 优秀共青团员 · 厦门大学 2026"
+           data-hant="🏆 優秀共青團員 · 廈門大學 2026"
+           data-en="🏆 Outstanding CYL Member · XMU 2026">🏆 Outstanding CYL Member · XMU 2026</div>
+      <div class="award-item" data-zh="🥇 三好学生一等奖学金 · 南京农大 2020"
+           data-hant="🥇 三好學生一等獎學金 · 南京農大 2020"
+           data-en="🥇 Merit Student, 1st-Class Scholarship · NAU 2020">🥇 Merit Student, 1st-Class Scholarship</div>
+      <div class="award-item" data-zh="🥈 生命科学基地班二等奖学金 · 南京农大 2020"
+           data-hant="🥈 生命科學基地班二等獎學金 · 南京農大 2020"
+           data-en="🥈 Life Science Base 2nd Scholarship · NAU 2020">🥈 Life Science Base 2nd Scholarship</div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== BEYOND LAB (08) ====== -->
+<section class="section" id="beyond">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">08</span>
+      <span class="section-label" data-zh="实验室之外" data-hant="實驗室之外" data-en="Beyond Lab">Beyond the Lab</span>
+      <h2 class="section-title" data-zh="实验室之外" data-hant="實驗室之外" data-en="Beyond the Lab">Beyond the Lab</h2>
+    </div>
+    <div class="beyond-grid">
+      <div class="beyond-card">
+        <div class="beyond-emoji">🎬</div>
+        <h3 data-zh="内容创作" data-hant="內容創作" data-en="Content Creation">Content Creation</h3>
+        <p data-zh="B 站游戏自媒体独立运营经验，独立完成文案、剪辑与视觉设计全流程。"
+           data-hant="B 站遊戲自媒體獨立運營經驗，獨立完成文案、剪輯與視覺設計全流程。"
+           data-en="Independently ran a gaming channel on Bilibili — copywriting, editing and visual design end-to-end.">Bilibili gaming channel, end-to-end production...</p>
+      </div>
+      <div class="beyond-card">
+        <div class="beyond-emoji">🎨</div>
+        <h3 data-zh="视觉设计" data-hant="視覺設計" data-en="Visual Design">Visual Design</h3>
+        <p data-zh="熟练使用 Photoshop 与 Final Cut Pro，能独立完成海报、信息图与视频成片。"
+           data-hant="熟練使用 Photoshop 與 Final Cut Pro，能獨立完成海報、信息圖與視頻成片。"
+           data-en="Proficient in Photoshop &amp; Final Cut Pro — posters, infographics and video production from scratch.">Photoshop &amp; FCP for posters/infographics/video...</p>
+      </div>
+      <div class="beyond-card">
+        <div class="beyond-emoji">🎮</div>
+        <h3 data-zh="电子游戏" data-hant="電子遊戲" data-en="Gaming">Gaming</h3>
+        <p data-zh="英雄联盟峡谷之巅超凡大师 · 云顶之弈超凡大师 · 炉石传说传说 · 艾尔登法环 / 黑神话全成就。"
+           data-hant="英雄聯盟峽谷之巔超凡大師 · 雲頂之弈超凡大師 · 爐石傳說傳說 · 艾爾登法環 / 黑神話全成就。"
+           data-en="LoL Grandmaster (Summoner's Rift &amp; TFT), Hearthstone Legend, 100% achievements in Elden Ring &amp; Black Myth: Wukong.">LoL Grandmaster, Hearthstone Legend, soulslike completer...</p>
+      </div>
+      <div class="beyond-card">
+        <div class="beyond-emoji">🌱</div>
+        <h3 data-zh="持续学习" data-hant="持續學習" data-en="Lifelong Learning">Lifelong Learning</h3>
+        <p data-zh="持续关注生物信息学与数据科学前沿进展，保持跨学科阅读与自学。"
+           data-hant="持續關注生物信息學與數據科學前沿進展，保持跨學科閱讀與自學。"
+           data-en="Continuously following advances in bioinformatics and data science; an avid cross-disciplinary reader.">Bioinformatics, data science, cross-disciplinary reading...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== CONTACT (09) ====== -->
+<section class="section contact-section" id="contact">
+  <div class="container contact-inner">
+    <span class="section-num section-num-light">09</span>
+    <span class="section-label" data-zh="联系我" data-hant="聯絡我" data-en="Get in Touch">Get in Touch</span>
+    <h2 class="section-title" data-zh="联系我" data-hant="聯絡我" data-en="Contact">Contact</h2>
+    <p class="contact-desc"
+       data-zh="欢迎交流学术合作、科研机会，或只是聊聊科学与游戏。"
+       data-hant="歡迎交流學術合作、科研機會，或只是聊聊科學與遊戲。"
+       data-en="Open to collaborations, opportunities, or just a chat about science and games.">Open to collaborations, opportunities, or just a chat.</p>
+    <div class="contact-links">
+      <a href="mailto:yukuai76@hku.hk" class="contact-item">
+        <span class="contact-icon">✉️</span>
+        <div>
+          <div class="contact-label" data-zh="邮箱" data-hant="電郵" data-en="Email">Email</div>
+          <div class="contact-value">yukuai76@hku.hk</div>
+        </div>
+      </a>
+      <a href="tel:+85269186454" class="contact-item">
+        <span class="contact-icon">📱</span>
+        <div>
+          <div class="contact-label" data-zh="电话" data-hant="電話" data-en="Phone">Phone</div>
+          <div class="contact-value">+852 6918 6454</div>
+          <div class="contact-value">+86 137 3645 7776</div>
+        </div>
+      </a>
+      <div class="contact-item">
+        <span class="contact-icon">📍</span>
+        <div>
+          <div class="contact-label" data-zh="所在地" data-hant="所在地" data-en="Location">Location</div>
+          <div class="contact-value" data-zh="中国香港" data-hant="中國香港" data-en="Hong Kong SAR">Hong Kong SAR</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p data-zh="© 2026 俞快 · Kuai Yu。用心设计构建。"
+       data-hant="© 2026 俞快 · Kuai Yu。用心設計構建。"
+       data-en="© 2026 Kuai Yu · 俞快. Designed &amp; built with care.">© 2026 Kuai Yu · 俞快. Designed &amp; built with care.</p>
+    <p class="footer-sub"
+       data-zh="最近更新：2026 年 9 月"
+       data-hant="最近更新：2026 年 9 月"
+       data-en="Last updated: September 2026">Last updated: September 2026</p>
+  </div>
+</footer>
+
+<script>
+// ============ TRI-LINGUAL SWITCHER ============
+const langBtns = document.querySelectorAll('.lang-btn');
+const translatables = document.querySelectorAll('[data-zh][data-en]'); // hant optional
+let currentLang = 'zh';
+
+function setLang(lang) {
+  currentLang = lang;
+  const htmlLang = lang === 'en' ? 'en' : (lang === 'hant' ? 'zh-HK' : 'zh-CN');
+  document.documentElement.lang = htmlLang;
+  translatables.forEach(el => {
+    // Prefer exact match; for elements without data-hant, fall back to zh
+    let text = el.getAttribute(`data-${lang}`);
+    if (!text && lang === 'hant') text = el.getAttribute('data-zh');
+    if (text) el.innerHTML = text;
+  });
+  langBtns.forEach(btn => {
+    const active = btn.dataset.lang === lang;
+    btn.classList.toggle('active', active);
+    btn.setAttribute('aria-pressed', active);
+  });
+  try { localStorage.setItem('ky_lang', lang); } catch(e) {}
+}
+langBtns.forEach(btn => btn.addEventListener('click', () => setLang(btn.dataset.lang)));
+try {
+  const saved = localStorage.getItem('ky_lang');
+  if (['zh','hant','en'].includes(saved)) setLang(saved); else setLang('zh');
+} catch(e) { setLang('zh'); }
+
+// ============ MOBILE NAV ============
+const toggle = document.getElementById('navToggle');
+const linksEl = document.getElementById('navLinks');
+toggle.addEventListener('click', () => {
+  linksEl.classList.toggle('open');
+  toggle.classList.toggle('active');
+});
+
+// ============ NAV SHADOW ============
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 20));
+
+// ============ SMOOTH SCROLL ============
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      linksEl.classList.remove('open');
+      toggle.classList.remove('active');
+    }
+  });
+});
+
+// ============ SCROLL REVEAL ============
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.08 });
+document.querySelectorAll('.tl-item, .card, .skill-card, .pub-card, .beyond-card, .edu-item, .contact-item, .award-item').forEach(el => {
+  el.classList.add('reveal');
+  observer.observe(el);
+});
+</script>
+</body>
+</html>
