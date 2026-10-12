@@ -864,3 +864,36 @@ sup { font-size: 0.7em; }
 .edu-place {
   font-size: 13px; color: var(--text-light);
 }
+
+/* ====== EMAIL NOTICE BAR ====== */
+.email-notice {
+  background: linear-gradient(90deg, rgba(36, 68, 114, 0.06), rgba(178, 74, 50, 0.05));
+  border-top: 1px solid var(--rule-soft, #e0daca);
+  border-bottom: 1px solid var(--rule-soft, #e0daca);
+  padding: 14px 0;
+}
+.email-notice-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+.notice-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.email-notice p {
+  margin: 0;
+  font-size: 14.5px;
+  color: var(--ink-soft, #464e61);
+  font-family: var(--sans);
+  line-height: 1.5;
+}
+@media (max-width: 640px) {
+  .email-notice-inner {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+    padding: 0 20px;
+  }
+}
